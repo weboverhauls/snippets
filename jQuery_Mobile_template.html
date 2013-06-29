@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+<head>
+     <meta charset="utf-8" />
+     <meta name="viewport" content="width=device-width, initial-scale=1" />
+     <title>My Presentation</title>
+     <meta name="description" content="" />
+     <meta name="author" content="" />
+     
+     <link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css" />
+
+     <script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+     <script>
+     $(document).bind("mobileinit", function(){
+          $.extend(  $.mobile , {
+               defaultPageTransition: "none"
+          });
+     });
+     </script>
+     <script src="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js"></script>
+
+     <style>
+     #footer {
+          text-align:center;
+     }
+     </style>
+</head>
+
+<body>
+
+<!-- SLIDE 0 -->
+<div data-role="page" id="home" data-theme="d">
+     <div data-role="header" data-theme="d">
+          <h1>My Presentation</h1>
+          <a href="#s1" data-role="button" data-icon="arrow-r" data-iconpos="right" class="ui-btn-right">Next</a>
+     </div>
+     <div data-role="content">
+          <ol data-role="listview" data-inset="true">
+               <li><a href="#s1">Slide l</a></li>
+               <li><a href="#s2">Slide 2</a></li>
+               <li><a href="#s3">Slide 3</a></li>
+          </ol>
+     </div>
+     <div id="footer">
+          <div data-role="controlgroup" data-type="horizontal">
+               <a href="#info" data-role="button" data-icon="info" data-rel="dialog" data-transition="slidedown">Info</a>
+               <a href="#share" data-role="button" data-icon="plus" data-rel="dialog" data-transition="slidedown">Share</a>
+          </div>
+     </div>
+</div>
+
+<!-- SLIDE 1 -->
+<div data-role="page" id="s1" data-theme="d">
+     <div data-role="header" data-theme="d">
+          <h1>Slide 1</h1>
+          <a href="#" data-rel="back" data-icon="arrow-l" data-iconpos="left" class="ui-btn-left">Back</a>
+          <a href="#s2" data-role="button" data-icon="arrow-r" data-iconpos="right" class="ui-btn-right">Next</a>
+     </div>
+     <div data-role="content">
+          <p>content for slide 1</p>
+     </div>
+     <div id="footer">
+          <div data-role="controlgroup" data-type="horizontal">
+               <a href="#home" data-role="button" data-icon="home" data-direction="reverse">Home</a>
+               <a href="#info" data-role="button" data-icon="info" data-rel="dialog" data-transition="slidedown">Info</a>
+               <a href="#share" data-role="button" data-icon="plus" data-rel="dialog" data-transition="slidedown">Share</a>
+          </div>
+     </div>
+</div>
+
+<!-- SLIDE 2 -->
+<div data-role="page" id="s2" data-theme="d">
+     <div data-role="header" data-theme="d">
+          <h1>Slide 2</h1>
+          <a href="#" data-rel="back" data-icon="arrow-l" data-iconpos="left" class="ui-btn-left">Back</a>
+          <a href="#s3" data-role="button" data-icon="arrow-r" data-iconpos="right" class="ui-btn-right">Next</a>
+     </div>
+     <div data-role="content">
+          <p>content for slide 2</p>
+     </div>
+     <div id="footer">
+          <div data-role="controlgroup" data-type="horizontal">
+               <a href="#home" data-role="button" data-icon="home" data-direction="reverse">Home</a>
+               <a href="#info" data-role="button" data-icon="info" data-rel="dialog" data-transition="slidedown">Info</a>
+               <a href="#share" data-role="button" data-icon="plus" data-rel="dialog" data-transition="slidedown">Share</a>
+          </div>
+     </div>
+</div>
+
+<!-- SLIDE 3 -->
+<div data-role="page" id="s3" data-theme="d">
+     <div data-role="header" data-theme="d">
+          <a href="#" data-rel="back" data-icon="arrow-l" data-iconpos="left" class="ui-btn-left">Back</a>
+          <h1>Slide 3</h1>
+     </div>
+     <div data-role="content">
+          <p>content for slide 3</p>
+     </div>
+     <div id="footer">
+          <div data-role="controlgroup" data-type="horizontal">
+               <a href="#home" data-role="button" data-icon="home" data-direction="reverse">Home</a>
+               <a href="#info" data-role="button" data-icon="info" data-rel="dialog" data-transition="slidedown">Info</a>
+               <a href="#share" data-role="button" data-icon="plus" data-rel="dialog" data-transition="slidedown">Share</a>
+          </div>
+     </div>
+</div>
+
+<!-- SLIDE INFO -->
+<div data-role="page" id="info" data-theme="d">
+     <div data-role="header" data-theme="d">
+          <h1>Dialog - Info</h1>
+     </div>
+     <div data-role="content">
+          <p>Ipsum</p>
+          <p>Lorem</p>
+          <p><a href="index.html" data-role="button" data-rel="back">Close</a></p>
+     </div>
+</div>
+
+<!-- SLIDE SHARE -->
+<div data-role="page" id="share" data-theme="d">
+     <div data-role="header" data-theme="d">
+          <h1>Dialog - Share</h1>
+     </div>
+     <div data-role="content">
+         <h3>Share</h3>
+          <p><a href="http://twitter.com/home?status=NAME+URL_HERE" data-role="button">Twitter</a>          
+          </p><p><a href="http://www.facebook.com/sharer.php?u=URL_HERE" data-role="button">Facebook</a>          
+          </p><p><a href="index.html" data-role="button" data-rel="back">Close</a></p>
+     </div>
+</div>
+
+</body>
+</html>
