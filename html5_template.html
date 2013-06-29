@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+     <meta charset="utf-8" />
+     <title>my page</title>
+     <meta name="description" content="" />
+     <meta name="author" content="" />
+     <link rel="stylesheet" href="css/general.css" />
+     <!-- optional -->
+     <!--<script src="js/modernizr.js"></script>-->
+</head>
+
+<body class="theme-default no-js">
+
+<script>
+// changes no-js class in body element to js; alternative to modernizr-like library
+document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<div id="wrapper">
+
+     <header role="banner">
+          <div>LOGO</div>
+          <p>Slogan here</p>
+     </header>
+
+     <nav role="navigation">
+          <ul>
+               <li><a href="#">A</a></li>
+               <li><a href="#">B</a></li>
+               <li><a href="#">C</a></li>
+          </ul>
+     </nav>
+
+     <main role="main">
+          <section>
+               <h1>Page Title</h1>
+               <p>Ipsum lorem</p>
+          </section>
+         
+          <aside role="complementary">
+               <h2>Foo</h2>
+               <p>Ipsum lorem</p>
+          </aside>
+     </main>
+
+     <footer role="contentinfo">
+          <p>&copy; copyright 2013 Your Mama</p>
+     </footer>
+
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+
+<script src="js/general.js"></script>
+
+<script>
+(function(){
+
+})();
+
+// $( document ).ready(function() {
+
+// });
+</script>
+
+</body>
+</html>
