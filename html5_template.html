@@ -4,17 +4,23 @@
      <meta charset="utf-8" />
      <title>my page</title>
      <meta name="description" content="" />
+     <meta name="keywords" content="" />
      <meta name="author" content="" />
+
      <link rel="stylesheet" href="css/general.css" />
-     <!-- optional -->
+     
+     <!-- Optional -->
      <!--<script src="js/modernizr.js"></script>-->
+
+     <!-- Fixing IE 8, 7, 6 -->
+     <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 </head>
 
 <body class="theme-default no-js">
 
 <script>
-// changes no-js class in body element to js; alternative to modernizr-like library
-document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+     // Changes no-js class in body element to js; alternative to modernizr-like library
+     document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
 </script>
 
 <div id="wrapper">
@@ -50,8 +56,10 @@ document.documentElement.className = document.documentElement.className.replace(
 
 </div>
 
+<!-- jQuery hosted by Google -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
 
+<!-- your JavaScript -->
 <script src="js/general.js"></script>
 
 <script>
