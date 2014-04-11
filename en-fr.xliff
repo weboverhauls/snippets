@@ -417,32 +417,32 @@
 
       <trans-unit id="write-tweet-h2-label" datatype="html">
         <source>Write Tweet</source>
-        <target>Write Tweet</target>
+        <target>Rédiger un tweet</target>
       </trans-unit>
 
       <trans-unit id="write-tweet-char-limit" datatype="html">
         <source>The character limit is 140.</source>
-        <target>The character limit is 140.</target>
+        <target>La limite de caractères est de 140.</target>
       </trans-unit>
 
       <trans-unit id="write-tweet-char-remain" datatype="html">
         <source>Characters remaining:</source>
-        <target>Characters remaining:</target>
+        <target>Nombre de caractères restants:</target>
       </trans-unit>
 
       <trans-unit id="write-tweet-post" datatype="html">
         <source>Post</source>
-        <target>Post</target>
+        <target>Publier</target>
       </trans-unit>
 
       <trans-unit id="write-tweet-h3" datatype="html">
         <source>Shorten URL</source>
-        <target>Shorten URL</target>
+        <target>Raccourcir l'URL</target>
       </trans-unit>
 
       <trans-unit id="write-tweet-enter-url" datatype="html">
         <source>Enter URL:</source>
-        <target>Enter URL:</target>
+        <target>Saisir l'URL:</target>
       </trans-unit>
 
       <trans-unit id="write-tweet-service" datatype="html">
@@ -452,7 +452,7 @@
 
       <trans-unit id="write-tweet-shorten" datatype="html">
         <source>Shorten</source>
-        <target>Shorten</target>
+        <target>Raccourcir</target>
       </trans-unit>
 
       <!-- HOME PAGE -->
@@ -484,7 +484,7 @@
 
       <trans-unit id="home-signin-btn-alt" datatype="html">
         <source>Sign in with Twitter</source>
-        <target>Sign in with Twitter</target>
+        <target>Se connecter avec Twitter</target>
       </trans-unit>
 
       <trans-unit id="home-signin-signed-in-as" datatype="html">
@@ -494,17 +494,17 @@
 
       <trans-unit id="home-h2-donate" datatype="html">
         <source>Donate to Easy Chirp</source>
-        <target>Donate to Easy Chirp</target>
+        <target>Faire un don à Easy Chirp</target>
       </trans-unit>
 
       <trans-unit id="home-donate-btn-alt" datatype="html">
         <source>Donate with PayPal; credit cards accepted.</source>
-        <target>Donate with PayPal; credit cards accepted.</target>
+        <target>Faire un don avec Paypal, carte de crédit requise.</target>
       </trans-unit>
 
       <trans-unit id="home-h2-latest-tweets" datatype="html">
         <source>Latest Tweets from Easy Chirp</source>
-        <target>Latest Tweets from Easy Chirp</target>
+        <target>Les plus récents tweets de Easy Chirp</target>
       </trans-unit>
 
       <trans-unit id="home-h2-follow-me" datatype="html">
@@ -514,7 +514,7 @@
 
       <trans-unit id="home-h2-share" datatype="html">
         <source>Share</source>
-        <target>Share</target>
+        <target>Partager</target>
       </trans-unit>
 
       <trans-unit id="home-h2-articles" datatype="html">
@@ -616,7 +616,7 @@
 
       <trans-unit id="dm-h1" datatype="html">
         <source>Direct Messages</source>
-        <target>Direct Messages</target>
+        <target>Message Privé</target>
       </trans-unit>
 
       <trans-unit id="dm-h2-send" datatype="html">
@@ -626,7 +626,7 @@
 
       <trans-unit id="dm-label-tweep" datatype="html">
         <source>Send a direct message to (username):</source>
-        <target>Send a direct message to (username):</target>
+        <target>Envoyé un message privé à (utilisateur):</target>
       </trans-unit>
 
       <trans-unit id="dm-label-txtDirectMessage" datatype="html">
@@ -663,26 +663,26 @@
 
       <trans-unit id="status-h1" datatype="html">
         <source>View Single Tweet</source>
-        <target>View Single Tweet</target>
+        <target>Voir un Seul Tweet</target>
       </trans-unit>
 
       <trans-unit id="status-on-twitter" datatype="html">
         <source>This tweet on Twitter</source>
-        <target>This tweet on Twitter</target>
+        <target>Ce tweet sur Twitter</target>
       </trans-unit>
 
       <!-- DIRECT MESSAGES - INBOX -->
 
       <trans-unit id="dm-inbox-h1" datatype="html">
         <source>Direct Messages - Inbox</source>
-        <target>Direct Messages - Inbox</target>
+        <target>Message Privé - Inbox</target>
       </trans-unit>
 
       <!-- DIRECT MESSAGES - SENT -->
 
       <trans-unit id="dm-sent-h1" datatype="html">
         <source>Direct Messages - Sent</source>
-        <target>Direct Messages - Sent</target>
+        <target>Message Privé - Sent</target>
       </trans-unit>
 
       <!-- FAVORITES -->
@@ -752,7 +752,7 @@
 
       <trans-unit id="lists-h1" datatype="html">
         <source>Lists</source>
-        <target>Lists</target>
+        <target>Listes</target>
       </trans-unit>
 
       <trans-unit id="lists-note1" datatype="html">
@@ -762,17 +762,17 @@
 
       <trans-unit id="lists-h2-create" datatype="html">
         <source>Create List</source>
-        <target>Create List</target>
+        <target>Créer une liste</target>
       </trans-unit>
 
       <trans-unit id="lists-create-name" datatype="html">
         <source>Name</source>
-        <target>Name</target>
+        <target>Nom</target>
       </trans-unit>
 
       <trans-unit id="lists-create-name-tip" datatype="html">
         <source>(required, under 25 characters, letters and numbers only)</source>
-        <target>(required, under 25 characters, letters and numbers only)</target>
+        <target>(requis, mois de 25 caractères, lettres et ciffres seulement)</target>
       </trans-unit>
 
       <trans-unit id="lists-create-desc" datatype="html">
@@ -782,12 +782,12 @@
 
       <trans-unit id="lists-create-desc-tip" datatype="html">
         <source>(optional, under 100 characters)</source>
-        <target>(optional, under 100 characters)</target>
+        <target>(optionnelle, moins de 100 caractères)</target>
       </trans-unit>
 
       <trans-unit id="lists-create-privacy" datatype="html">
         <source>Privacy</source>
-        <target>Privacy</target>
+        <target>Privé (requis)</target>
       </trans-unit>
 
       <trans-unit id="lists-create-privacy-public" datatype="html">
@@ -797,37 +797,37 @@
 
       <trans-unit id="lists-create-privacy-private" datatype="html">
         <source>Private</source>
-        <target>Private</target>
+        <target>Privé</target>
       </trans-unit>
 
       <trans-unit id="lists-create-submit" datatype="html">
         <source>Create</source>
-        <target>Create</target>
+        <target>Créer</target>
       </trans-unit>
 
       <trans-unit id="lists-create-open" datatype="html">
         <source>Open</source>
-        <target>Open</target>
+        <target>Ouvrir</target>
       </trans-unit>
 
       <trans-unit id="lists-create-close" datatype="html">
         <source>Close</source>
-        <target>Close</target>
+        <target>Fermer</target>
       </trans-unit>
 
       <trans-unit id="lists-h2-my" datatype="html">
         <source>My Lists</source>
-        <target>My Lists</target>
+        <target>Mes listes</target>
       </trans-unit>
 
       <trans-unit id="lists-h2-sub" datatype="html">
         <source>Subscribed Lists</source>
-        <target>Subscribed Lists</target>
+        <target>Souscrire à une liste</target>
       </trans-unit>
 
       <trans-unit id="lists-fullname" datatype="html">
         <source>Full name</source>
-        <target>Full name</target>
+        <target>Nom complet</target>
       </trans-unit>
 
       <trans-unit id="lists-desc" datatype="html">
@@ -842,17 +842,17 @@
 
       <trans-unit id="lists-mems" datatype="html">
         <source>Members</source>
-        <target>Members</target>
+        <target>Membres</target>
       </trans-unit>
 
       <trans-unit id="lists-add-mem" datatype="html">
         <source>Add Member</source>
-        <target>Add Member</target>
+        <target>Ajouter un membre</target>
       </trans-unit>
 
       <trans-unit id="lists-add-submit" datatype="html">
         <source>Add</source>
-        <target>Add</target>
+        <target>Ajouter</target>
       </trans-unit>
 
       <trans-unit id="lists-mode" datatype="html">
@@ -867,7 +867,7 @@
 
       <trans-unit id="lists-edit" datatype="html">
         <source>Edit Settings</source>
-        <target>Edit Settings</target>
+        <target>Modifier les paramètres</target>
       </trans-unit>
 
       <trans-unit id="lists-on-twitter" datatype="html">
@@ -877,17 +877,17 @@
 
       <trans-unit id="lists-unsubscribe" datatype="html">
         <source>Unsubscribe</source>
-        <target>Unsubscribe</target>
+        <target>Se désinscrire</target>
       </trans-unit>
 
       <trans-unit id="lists-owner" datatype="html">
         <source>Owner</source>
-        <target>Owner</target>
+        <target>Propriétaire</target>
       </trans-unit>
 
       <trans-unit id="lists-you-are-owner" datatype="html">
         <source>You are the owner of this list.</source>
-        <target>You are the owner of this list.</target>
+        <target>Vous êtes le propriétaire de cette liste.</target>
       </trans-unit>
 
       <!-- MENTIONS -->
@@ -913,12 +913,12 @@
 
       <trans-unit id="profile-edit-link" datatype="html">
         <source>Edit Profile</source>
-        <target>Edit Profile</target>
+        <target>Modifier le profil</target>
       </trans-unit>
 
       <trans-unit id="profile-dt-username" datatype="html">
         <source>Username</source>
-        <target>Username</target>
+        <target>Nom d'utilisateur</target>
       </trans-unit>
 
       <trans-unit id="profile-dt-name" datatype="html">
@@ -928,12 +928,12 @@
 
       <trans-unit id="profile-dt-location" datatype="html">
         <source>Location</source>
-        <target>Location</target>
+        <target>Emplacement</target>
       </trans-unit>
 
       <trans-unit id="profile-dt-since" datatype="html">
         <source>Member Since</source>
-        <target>Member Since</target>
+        <target>Membre depuis</target>
       </trans-unit>
 
       <trans-unit id="profile-dt-bio" datatype="html">
@@ -943,7 +943,7 @@
 
       <trans-unit id="profile-dt-website" datatype="html">
         <source>Website</source>
-        <target>Website</target>
+        <target>Site Web</target>
       </trans-unit>
 
       <trans-unit id="profile-dt-tweets" datatype="html">
@@ -963,12 +963,12 @@
 
       <trans-unit id="profile-dt-lists" datatype="html">
         <source>Lists</source>
-        <target>Lists</target>
+        <target>Listes</target>
       </trans-unit>
 
       <trans-unit id="profile-dd-my-lists" datatype="html">
         <source>My Lists</source>
-        <target>My Lists</target>
+        <target>Mes Listes</target>
       </trans-unit>
 
       <trans-unit id="profile-dt-api-hits" datatype="html">
@@ -978,27 +978,27 @@
 
       <trans-unit id="profile-dt-bg-image" datatype="html">
         <source>Background image</source>
-        <target>Background image</target>
+        <target>Image d'arrière-plan</target>
       </trans-unit>
 
       <trans-unit id="profile-view-image" datatype="html">
         <source>view image</source>
-        <target>view image</target>
+        <target>Voir l'image</target>
       </trans-unit>
 
       <trans-unit id="profile-no-img" datatype="html">
         <source>No background image is found.</source>
-        <target>No background image is found.</target>
+        <target>Aucune image trouvée.</target>
       </trans-unit>
 
       <trans-unit id="profile-no-alt" datatype="html">
         <source>(No alternative text is offered from Twitter.)</source>
-        <target>(No alternative text is offered from Twitter.)</target>
+        <target>(Aucun texte alternatif offert par Twitter.)</target>
       </trans-unit>
 
       <trans-unit id="profile-h2-latest" datatype="html">
         <source>Latest Tweets</source>
-        <target>Latest Tweets</target>
+        <target>Plus récent tweets</target>
       </trans-unit>
 
       <!-- EDIT PROFILE -->
@@ -1010,27 +1010,27 @@
 
       <trans-unit id="edit-profile-h1" datatype="html">
         <source>Edit Profile</source>
-        <target>Edit Profile</target>
+        <target>Modifier le profil</target>
       </trans-unit>
 
       <trans-unit id="edit-profile-email" datatype="html">
         <source>Email</source>
-        <target>Email</target>
+        <target>Courriel</target>
       </trans-unit>
 
       <trans-unit id="edit-profile-update" datatype="html">
         <source>Update</source>
-        <target>Update</target>
+        <target>Mise à jour</target>
       </trans-unit>
 
       <trans-unit id="edit-profile-avatar-h2" datatype="html">
         <source>Change Avatar</source>
-        <target>Change Avatar</target>
+        <target>Changer l'avatar</target>
       </trans-unit>
 
       <trans-unit id="edit-profile-avatar-p" datatype="html">
         <source>Must be a valid GIF, JPG, or PNG image of less than 700 kilobytes in size.</source>
-        <target>Must be a valid GIF, JPG, or PNG image of less than 700 kilobytes in size.</target>
+        <target>Doit être un GIF valide, JPG ou PNG de moins de 700 kilo-octets.</target>
       </trans-unit>
 
       <trans-unit id="edit-profile-avatar-path" datatype="html">
@@ -1072,7 +1072,7 @@
 
       <trans-unit id="tips-h2-search" datatype="html">
         <source>Search</source>
-        <target>Search</target>
+        <target>Recherche</target>
       </trans-unit>
 
       <trans-unit id="tips-search-p" datatype="html">
@@ -1232,7 +1232,7 @@
 
       <trans-unit id="tips-keys-6" datatype="html">
         <source>Direct Message (DM)</source>
-        <target>Direct Message (DM)</target>
+        <target>Message Privé</target>
       </trans-unit>
 
       <trans-unit id="tips-keys-7" datatype="html">
@@ -1249,12 +1249,12 @@
 
       <trans-unit id="trends-h1" datatype="html">
         <source>Trends</source>
-        <target>Trends</target>
+        <target>Tendance</target>
       </trans-unit>
 
       <trans-unit id="trends-worldwide" datatype="html">
         <source>Worldwide</source>
-        <target>Worldwide</target>
+        <target>Mondial</target>
       </trans-unit>
 
       <!-- ARTICLES & FEEDBACK -->
@@ -1732,7 +1732,7 @@
 
       <trans-unit id="search-h1" datatype="html">
         <source>Search</source>
-        <target>Search</target>
+        <target>Recherche</target>
       </trans-unit>
 
       <trans-unit id="search-h2-tweets" datatype="html">
@@ -1752,22 +1752,22 @@
 
       <trans-unit id="search-h3-hints" datatype="html">
         <source>Hints for Searching Tweets</source>
-        <target>Hints for Searching Tweets</target>
+        <target>Indices pour rechercher parmi les tweets</target>
       </trans-unit>
 
       <trans-unit id="search-th-operator" datatype="html">
         <source>Operator</source>
-        <target>Operator</target>
+        <target>Espace</target>
       </trans-unit>
 
       <trans-unit id="search-th-example" datatype="html">
         <source>Example</source>
-        <target>Example</target>
+        <target>Exemple</target>
       </trans-unit>
 
       <trans-unit id="search-th-result" datatype="html">
         <source>Result</source>
-        <target>Result</target>
+        <target>Résultats</target>
       </trans-unit>
 
       <trans-unit id="search-result-space" datatype="html">
@@ -1802,7 +1802,7 @@
 
       <trans-unit id="search-h2-saved" datatype="html">
         <source>Saved Searches</source>
-        <target>Saved Searches</target>
+        <target>Recherches sauvegardées</target>
       </trans-unit>
 
       <trans-unit id="search-saved-none" datatype="html">
@@ -1812,7 +1812,7 @@
 
       <trans-unit id="search-h2-users" datatype="html">
         <source>Search Users</source>
-        <target>Search Users</target>
+        <target>Rechercher un utilisateur</target>
       </trans-unit>
 
       <trans-unit id="search-users-query" datatype="html">
@@ -1822,7 +1822,7 @@
 
       <trans-unit id="search-users-submit" datatype="html">
         <source>Search Users</source>
-        <target>Search Users</target>
+        <target>Rechercher un utilisateur</target>
       </trans-unit>
 
       <!-- SEARCH RESULTS -->
@@ -1881,17 +1881,17 @@
 
       <trans-unit id="gbl-tweet-user-options" datatype="html">
         <source>user options</source>
-        <target>user options</target>
+        <target>options d'utilisateurs</target>
       </trans-unit>
 
       <trans-unit id="gbl-tweet-timeline" datatype="html">
         <source>timeline</source>
-        <target>timeline</target>
+        <target>ligne de temps</target>
       </trans-unit>
 
       <trans-unit id="gbl-tweet-dm" datatype="html">
         <source>direct message</source>
-        <target>direct message</target>
+        <target>message privé</target>
       </trans-unit>
 
       <trans-unit id="gbl-tweet-tweet-message" datatype="html">
@@ -1911,7 +1911,7 @@
 
       <trans-unit id="gbl-tweet-responding" datatype="html">
         <source>Responding</source>
-        <target>Responding</target>
+        <target>Répondre</target>
       </trans-unit>
 
       <trans-unit id="gbl-tweet-retweet" datatype="html">
@@ -1926,14 +1926,14 @@
 
       <trans-unit id="gbl-tweet-times" datatype="html">
         <source>times</source>
-        <target>times</target>
+        <target>fois</target>
       </trans-unit>
 
       <!-- USER -->
 
       <trans-unit id="user-h1" datatype="html">
         <source>User Details</source>
-        <target>User Details</target>
+        <target>Détails sur l'utilisateur</target>
       </trans-unit>
 
       <trans-unit id="user-pic-open-orig" datatype="html">
@@ -1958,7 +1958,7 @@
 
       <trans-unit id="user-unfollow" datatype="html">
         <source>Unfollow</source>
-        <target>Unfollow</target>
+        <target>Ne plus suivre</target>
       </trans-unit>
 
       <trans-unit id="user-not-following" datatype="html">
@@ -1993,12 +1993,12 @@
 
       <trans-unit id="user-verified" datatype="html">
         <source>Verified User</source>
-        <target>Verified User</target>
+        <target>Utilisateur Validé</target>
       </trans-unit>
 
       <trans-unit id="user-h2-details" datatype="html">
         <source>Details</source>
-        <target>Details</target>
+        <target>Détails</target>
       </trans-unit>
 
       <trans-unit id="user-is-following-me" datatype="html">
