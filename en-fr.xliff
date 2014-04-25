@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
   <file source-language="fr" target-language="fr" original="easychirp.local" datatype="html" 
-	state="needs-translation" xml:space="preserve">
+  state="needs-translation" xml:space="preserve">
     <body>
 
       <!-- GLOBAL -->
@@ -435,7 +435,7 @@
         <target>Publier</target>
       </trans-unit>
 
-      <trans-unit id="write-tweet-h3" datatype="html">
+      <trans-unit id="write-tweet-hd-shorten" datatype="html">
         <source>Shorten URL</source>
         <target>Raccourcir l'URL</target>
       </trans-unit>
@@ -453,6 +453,31 @@
       <trans-unit id="write-tweet-shorten" datatype="html">
         <source>Shorten</source>
         <target>Raccourcir</target>
+      </trans-unit>
+
+      <trans-unit id="add-image-hd" datatype="html">
+        <source>Add Image</source>
+        <target>Add Image</target>
+      </trans-unit>
+
+      <trans-unit id="add-image-path" datatype="html">
+        <source>Local path to image (JPG, GIF, PNG; 2MB limit)</source>
+        <target>Local path to image (JPG, GIF, PNG; 2MB limit)</target>
+      </trans-unit>
+
+      <trans-unit id="add-image-title" datatype="html">
+        <source>Title of image (alt)</source>
+        <target>Title of image (alt)</target>
+      </trans-unit>
+
+      <trans-unit id="add-image-desc" datatype="html">
+        <source>Description of image (longdesc)</source>
+        <target>Description of image (longdesc)</target>
+      </trans-unit>
+
+      <trans-unit id="add-image-submit" datatype="html">
+        <source>Upload Image</source>
+        <target>Upload Image</target>
       </trans-unit>
 
       <!-- HOME PAGE -->
