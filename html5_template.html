@@ -3,6 +3,10 @@
 <head>
      <meta charset="utf-8" />
      <title>Page Title</title>
+
+     <!-- Tell IE to use the most current layout engine available -->
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
      <meta name="description" content="" />
      <meta name="keywords" content="" />
      <meta name="author" content="" />
@@ -13,8 +17,14 @@
      <!-- Optional -->
      <!--<script src="js/modernizr.js"></script>-->
 
-     <!-- Fixing IE 8, 7, 6 -->
-     <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+     <!-- Load html5 shiv and Respond.js for old IE versions so we can use HTML5 elements and media queries -->
+     <!--[if lt IE 9]>
+     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+     <script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+     <![endif]-->
+
+     <!-- Specify the URI of your favicon in href attribute -->
+     <link rel="shortcut icon" href="">
 </head>
 
 <body class="theme-default no-js">
@@ -52,7 +62,7 @@
      </main>
 
      <footer role="contentinfo">
-          <p>&copy; copyright 2013 Your Mama</p>
+          <p>&copy; copyright 2014 Your Mama</p>
      </footer>
 
 </div>
